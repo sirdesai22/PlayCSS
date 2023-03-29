@@ -1,0 +1,36 @@
+body{
+    background-color: azure;
+    height: 85vh;
+}
+
+@font-face {
+    font-family: brushStroke;
+    src: url(edosz.ttf);
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: brushStroke;
+}
+
+div{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #333;
+    transition: all 0.4s ease;
+}
+
+input{ 
+    background: none;
+    width: 75vw;
+    height: 30px;
+    font-size: 25px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
